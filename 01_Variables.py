@@ -70,3 +70,31 @@ print (
     'Science: ', scienceMarks, '\n'
     'Percentage: ', marksPercentage, '\n'
 )
+
+name = 'cherry' 
+
+greeting = 'Hello, ' + name + '! How are you?'
+print (greeting)
+
+age = 10
+
+# var = 'You are ' + age   --> Error since we cannot add a num to string
+
+# str() function used to convert number into string
+age_str = str(age)
+
+var = 'You are ' + age_str
+print (var)
+
+print(type(age))
+print(type(age_str))
+
+name = 7
+welcome = 'See you at {}'
+
+# WE can also achieve concatination with string formatting 
+# f is used to denote the use of fstream, placed before string
+if (age < 18): var = f'Your age is {age}, You cannot come to the party'
+else : var = welcome.format(name)
+
+print (var)
