@@ -78,15 +78,17 @@ myList.append('isinstance is used to compare object class')
 print(myList)
 
 # Extend - Add multiple element to the end
-# myList.extend([3,4,3], [4,3,2])
-# print(myList)
+# Use list to insert multiple elements 
+myList.extend([[3,4,3], [4,3,2]])
+print(myList)
 
 # Insert - Insert one element anywhere in between
 myList.insert(2, ['Shubh', 19])
 print(myList)
 
-# Pop - Remove the last element 
+# Pop - Remove the last element  or specify the index 
 myList.pop()
+myList.pop(2)
 print(myList)
 
 # remove - Remove the first occurence 
