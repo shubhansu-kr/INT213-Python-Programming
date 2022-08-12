@@ -1,13 +1,13 @@
-num = int(input('Enter num (to check prime) '))
-isPrime = True
-for i in range (2, num//2): 
-    if (num % i == 0): 
-        isPrime = False
-        
+# List of List 
+myList = [['Shawn', 18, 32324], ['Ram', 14, 345, 543], ['Trishit'], ['Ajit', 19]]
+print (myList)
 
-if (isPrime): 
-    print(f'{num} is a prime number')
-else: 
-    for i in range (1, 11): 
-        x = num * i
-        print(f'{x} ')
+# Accessing 2d lists 
+print (myList[0][1])
+
+for val in myList: 
+    for value in val: 
+        print(value)
+
+for val in myList: 
+    print (val)
