@@ -29,6 +29,11 @@ print(f'Square of {nums}: {numSquare}')
 friends = ['Aman', 'Shiv', 'Ram', 'Adam']
 name = input('Enter a name: ')
 
+name.lower()
+
+for i in range (0, len(friends)): 
+    friends[i] = friends[i].lower()
+
 if (name in friends):
     print('Record found ')
 else:

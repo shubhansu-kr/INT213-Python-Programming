@@ -1,5 +1,8 @@
-n = int(input('Enter number of elements: '))
-userList = []
-for i in range (0, n): 
-    userList.append(int(input(f'Enter element {i+1}: ')))
-print(f'userList: {userList}')
+friends = ['Aman', 'Shiv', 'Ram', 'Adam']
+name = input('Enter a name: ')
+
+name.lower()
+print (friends)
+for i in friends: 
+    i = i.lower()
+print (friends)
