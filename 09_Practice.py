@@ -1,6 +1,3 @@
-from xml.dom.minidom import Element
-
-
 # WAP to find the max of all the Element in a list
 
 nums = [23, 43, 56, 10, 3, 72]
@@ -18,7 +15,7 @@ nums = []
 
 n = int(input('Enter The number of elements: '))
 for i in range(0, n):
-    nums.append(int(input(f'Enter element {i}: ')))
+    nums.append(int(input(f'Enter element {i+1}: ')))
 
 numSquare = []
 for i in nums:
@@ -37,3 +34,10 @@ if (name in friends):
 else:
     print('Record not found')
 
+# WAP to create a list from user input
+
+n = int(input('Enter number of elements: '))
+userList = []
+for i in range (0, n): 
+    userList.append(int(input(f'Enter element {i+1}: ')))
+print(f'userList: {userList}')
