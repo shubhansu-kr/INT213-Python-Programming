@@ -1,6 +1,6 @@
+a = {1,2,3,4}
+b = {3,4,5,6}
+# or we can do this 
+a.difference_update(b) 
 
-a = [1,2,3,4,5,6,7,8,9,0]
-b = (1,2,3,4,5,6,7,8,9,0)
-
-print(a.__sizeof__(), b.__sizeof__())
-# Size of tuple is less than size of list
+print (a) 
