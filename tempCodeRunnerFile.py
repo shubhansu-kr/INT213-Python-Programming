@@ -1,8 +1,6 @@
-myList = [4, 3, 2, 5, 7, 5]
 
-print(myList) 
-print(myList[1: 5])
-print(myList[:]) # Skips the last element 
+a = [1,2,3,4,5,6,7,8,9,0]
+b = (1,2,3,4,5,6,7,8,9,0)
 
-slicedList = myList[1: 5]
-print(slicedList)
+print(a.__sizeof__(), b.__sizeof__())
+# Size of tuple is less than size of list
