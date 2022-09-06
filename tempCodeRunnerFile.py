@@ -1,10 +1,12 @@
-# Using comples data structures as parameters 
+def altSum(list2): 
+    sum = 0
+    flag = 1
+    for i in list2: 
+        if (flag): 
+            sum = sum + i
+            flag = 0
+        else: 
+            flag = 1
+    return sum 
 
-def studentDetails(student): 
-    n = student['name']
-    m = student['marks']
-    print(f'The student {n} scored {m} marks')
-
-student = {'name': 'ABC', 'section': 'K21GP', 'marks': 45}
-
-studentDetails(student)
+print(altSum([4,5,3,2,6,4,6,4]))
