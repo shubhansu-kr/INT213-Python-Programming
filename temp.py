@@ -1,8 +1,6 @@
-import os 
-f = open('dummy.txt', 'rb')
+def change (i = 1, j = 2): 
+    i = i+ j 
+    j = j + 1 
+    print(i,j)
 
-n = os.path.getsize('dummy.txt')
-print(n)
-print(f.tell())
-print(f.read())
-print(f.tell())
+change(j = 1, i = 2)
