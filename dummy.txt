@@ -1,1 +1,2 @@
-Write a python code to read a file word by word and store the result in a list
+3 55 6 4
+7 8 9 10
