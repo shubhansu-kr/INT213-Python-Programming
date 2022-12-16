@@ -1,6 +1,9 @@
-def change (i = 1, j = 2): 
-    i = i+ j 
-    j = j + 1 
-    print(i,j)
+print(': ')
+x, y = map(int, input().split())
 
-change(j = 1, i = 2)
+print(x, y)
+
+print(': ', end = ' ')
+list1 = list(map(str, input().split()))
+
+print(list1)
